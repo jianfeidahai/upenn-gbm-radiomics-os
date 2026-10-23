@@ -15,7 +15,7 @@ authors:
   - family-names: "Li"
     given-names: "Si"
 license: MIT
-repository-code: "[待补充：https://github.com/<owner>/<repo>]"
+repository-code: "https://github.com/jianfeidahai/upenn-gbm-radiomics-os"
 keywords:
   - radiomics
   - glioblastoma
