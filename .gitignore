@@ -1,0 +1,15 @@
+# 临时与系统文件
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db
+
+# 大体积中间产物（如有）
+*.pkl
+*.tmp
+
+# 本地自检输出
+*_out.txt
+*_out.json
+check_out.txt

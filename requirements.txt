@@ -1,0 +1,21 @@
+# UPENN-GBM 影像组学 OS 增量价值 —— 复现依赖
+#
+# 说明：本稿的特征提取与建模分处两个环境（依 PyRadiomics 3.1.0 的版本约束）：
+#   特征提取：Python 3.9 + pyradiomics==3.1.0
+#   建模/统计：Python 3.12.10 + scikit-learn==1.9.1
+# 若只重跑建模环节（README 路径 A），仅安装"通用"与"建模与统计"两节即可。
+
+# ---- 通用 ----
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+
+# ---- 数据准备与特征提取 ----
+pydicom>=2.3
+nibabel>=5.0
+SimpleITK==2.5.6
+pyradiomics==3.1.0
+idc-index>=0.3
+
+# ---- 建模与统计 ----
+scikit-learn==1.9.1

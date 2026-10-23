@@ -1,0 +1,26 @@
+{
+  "title": "Reproduction code and radiomics feature matrix: incremental value of MRI radiomics for overall survival in glioblastoma (UPENN-GBM cohort)",
+  "description": "Analysis code and derived PyRadiomics feature matrix for the manuscript \"MRI 影像组学对胶质母细胞瘤总生存期的增量价值：UPENN-GBM 队列分析\". Includes cohort manifest and registration QC, IBSI fixed-bin-count (binCount=64) feature extraction, nested patient-grouped cross-validation modelling, patient-level bootstrap, calibration with bootstrap 95% intervals, MGMT association decomposition, feature selection stability and sensitivity analyses. Raw images and segmentations are NOT included; they must be obtained from the public UPENN-GBM repository (DOI: 10.7937/TCIA.709X-DN49). The feature matrix is a derivative of that dataset and is shared under CC BY 4.0; the code is MIT licensed.",
+  "upload_type": "software",
+  "license": "mit",
+  "access_right": "open",
+  "creators": [
+    { "name": "Zhang, San" },
+    { "name": "Li, Si" }
+  ],
+  "keywords": [
+    "radiomics",
+    "glioblastoma",
+    "overall survival",
+    "MGMT promoter methylation",
+    "incremental predictive value",
+    "cross-validation"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.7937/TCIA.709X-DN49",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    }
+  ]
+}

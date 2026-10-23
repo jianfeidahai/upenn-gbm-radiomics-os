@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it together with the UPENN-GBM dataset."
+title: "Reproduction code for: Incremental value of MRI radiomics for overall survival in glioblastoma (UPENN-GBM cohort)"
+abstract: >-
+  Analysis code for the manuscript "MRI 影像组学对胶质母细胞瘤总生存期的增量价值：
+  UPENN-GBM 队列分析". It covers cohort manifest and registration quality control,
+  PyRadiomics feature extraction (IBSI fixed bin count, binCount=64), nested
+  patient-grouped cross-validation modelling, patient-level bootstrap, calibration
+  with bootstrap intervals, MGMT association decomposition, feature selection
+  stability and sensitivity analyses.
+type: software
+authors:
+  - family-names: "Zhang"
+    given-names: "San"
+  - family-names: "Li"
+    given-names: "Si"
+license: MIT
+repository-code: "[待补充：https://github.com/<owner>/<repo>]"
+keywords:
+  - radiomics
+  - glioblastoma
+  - overall survival
+  - MGMT promoter methylation
+  - incremental predictive value
+  - cross-validation
+preferred-citation:
+  type: article
+  title: "MRI 影像组学对胶质母细胞瘤总生存期的增量价值：UPENN-GBM 队列分析"
+  authors:
+    - family-names: "Zhang"
+      given-names: "San"
+    - family-names: "Li"
+      given-names: "Si"
+related-identifiers:
+  - identifier: "10.7937/TCIA.709X-DN49"
+    relation: isDerivedFrom
+    scheme: doi
+    resource-type: dataset
