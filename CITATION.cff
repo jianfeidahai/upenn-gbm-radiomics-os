@@ -9,6 +9,8 @@ abstract: >-
   with bootstrap intervals, MGMT association decomposition, feature selection
   stability and sensitivity analyses.
 type: software
+doi: "10.5281/zenodo.23598987"
+version: "v1.0.0"
 authors:
   - family-names: "Zhang"
     given-names: "San"
